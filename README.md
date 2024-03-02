@@ -14,7 +14,7 @@
 
 
 
-4**Contacto**: no dudes en escribirme juanjogiraldop254@gmail.com
+4. **Contacto**: no dudes en escribirme juanjogiraldop254@gmail.com
 
 
 
