@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Ahorcado</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <h1>Juego de Ahorcado</h1>
+    <div id="wordDisplay"></div>
+    <div id="guessesLeft">Intentos restantes: <span id="attempts">10</span></div>
+    <div id="letters">
+        <p>Elige una letra:</p>
+        <input type="text" id="letterInput" maxlength="1">
+        <button onclick="guessLetter()">Enviar</button>
+        <div id="game-boarde"></div>
+    
+        <a href="index.html" target="_blank" class="btn" >Inicio</a>
+    </div>
+    <div id="message"></div>
+
+    <script src="main2.js"></script>
+
+    <footer>
+     <p>&copy; 2024 Juan Jose Giraldo Patiño.</p>
+    </footer>
+</body>
+</html>

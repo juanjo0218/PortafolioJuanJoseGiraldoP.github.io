@@ -1,0 +1,129 @@
+body{
+    background-color: #f0f0f0; /* Fondo de color gris claro */
+  }
+  
+  #game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+    grid-template-rows: repeat(4, 1fr); /* 4 filas */
+    gap: 5px; /* Espacio entre las cartas reducido */
+    justify-items: center; /* Centra horizontalmente las cartas */
+    align-items: center; /* Centra verticalmente las cartas */
+    margin: auto; /* Centra el tablero horizontalmente */
+    max-width: 500px; /* Define un ancho máximo para el tablero */
+  }
+  
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    background-color: #73C2FB; /* Color de fondo de las cartas */
+    border-radius: 15px; /* Bordes redondeados */
+    font-size: 20px; /* Tamaño de fuente */
+    cursor: pointer;
+  }
+  .container {
+    text-align: center;
+  }
+  
+  
+  
+  .game-board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+  }
+  
+  
+  .card {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    background-color: #73C2FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+  
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .tx {
+    font-size: 25px; /* Cambiar tamaño de la fuente */
+    color: #000; /* Cambiar color del texto */
+    letter-spacing: 1px; /* Cambiar el espaciado entre letras */
+    text-transform: uppercase; /* Convertir el texto a mayúsculas */
+    text-align: center; 
+    
+  }
+  
+  .btn{
+    display: flex;
+    background-color: #7E2E12; /* Cambiar color de fondo */
+    color: white; /* Cambiar color del texto */
+    padding: 10px 20px; /* Ajustar el espaciado interno del botón */
+    border: none; /* Eliminar el borde */
+    border-radius: 5px; /* Agregar bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+    margin: 80px  auto 0;
+  }
+  .botonn {
+    padding: 10px 20px;
+    background-color: #7E2E12;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto; /* Centra horizontalmente */
+    margin-left: 47%; /* Utilizamos un porcentaje para el margen izquierdo */
+    text-decoration: none;
+}
+
+/* Media query para ajustar el margen izquierdo en pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    .botonn {
+        margin-left: 39%; /* Reducimos el margen izquierdo para pantallas más pequeñas */
+    }
+}
+
+
+  
+  .btn:hover {
+    background-color: #AF4C2A ; /* Cambiar color de fondo al pasar el ratón */
+  }
+
+  .botonn:hover {
+    background-color: #AF4C2A ; /* Cambiar color de fondo al pasar el ratón */
+  }
+  footer {
+    background-color:#73C2FB;
+    color: black;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    margin-top: 4rem;
+    position: relative;
+    width: 100%;
+  
+  }
+  
+  
+  
+  @media screen and (max-width:980px){
+    responsive{
+     display: block;
+     position: absolute;
+     right: 0;
+     top: 75px;
+     background-color: #252A2E;
+     width: 180px;
+  
+    }
+  }
+  
+  

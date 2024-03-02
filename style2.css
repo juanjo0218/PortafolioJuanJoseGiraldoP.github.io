@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Fondo de color gris claro */
+}
+
+h1 {
+    color: #333;
+    margin-top: 120px;
+}
+
+#game-container {
+    margin-top: 250px; /* Bajar el juego 100px desde la parte superior */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#wordDisplay {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#guessesLeft {
+    margin-top: 10px;
+}
+
+#letters {
+    margin-top: 20px;
+}
+
+#letterInput {
+    width: 30px;
+    text-transform: uppercase; /* Convertir entrada a mayúsculas */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #7E2E12;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+
+button:hover {
+    background-color: #AF4C2A ; /* Cambiar color de fondo al pasar el ratón */
+  }
+  .btn {
+    padding: 10px 20px;
+    background-color: #7E2E12;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 52px;
+    margin-top: 20px; /* Ajusta el margen superior para bajar el elemento */
+    text-decoration: none;
+    display: inline-block; /* Asegura que el botón se muestre como un bloque en línea */
+}
+
+
+
+  
+  .btn:hover {
+    background-color: #AF4C2A ; /* Cambiar color de fondo al pasar el ratón */
+  }
+
+  
+
+
+  
+#message {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+footer {
+  background-color:#73C2FB;
+  color: black;
+  padding: 50px 0 30px 0;
+  text-align: center;
+  margin-top: 10rem;
+  position: relative;
+  width: 100%;
+
+}
+
