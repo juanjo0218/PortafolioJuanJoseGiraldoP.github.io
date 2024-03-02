@@ -10,17 +10,11 @@
    - **Encuentra la pareja**: Un juego de memoria donde el objetivo es encontrar todas las cartas coincidentes y poner a prueba tu concentración.
    - **Ahorcado**: Un juego clásico de adivinanzas donde debes adivinar la palabra antes de que se te acaben los turnos.
 
-3. **Capturas de Pantalla**: ## Capturas de Pantalla
+3. **Tecnologías Utilizadas**: HTML5, CSS3, JavaScript.
 
-![Captura de pantalla del juego "Encuentra la Carta con su Pareja"](game1.png)
 
-![Captura de pantalla del juego "Ahorcado"](game2.png)
 
-5. **Tecnologías Utilizadas**: HTML5, CSS3, JavaScript.
-
-7. **Licencia**: Información sobre la licencia del proyecto.
-
-8. **Contacto**: no dudes en escribirme juanjogiraldop254@gmail.com
+4**Contacto**: no dudes en escribirme juanjogiraldop254@gmail.com
 
 
 
